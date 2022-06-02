@@ -31,12 +31,12 @@ export default function Header1() {
       </button>
       <button onClick={handlePrevMonth}>
         <span className="flechaIzq material-icons-outlined cursor-pointer text-gray-600 mx-2">
-          chevron_left
+          ⏪
         </span>
       </button>
       <button onClick={handleNextMonth}>
         <span className="flechaDer material-icons-outlined cursor-pointer text-gray-600 mx-2">
-          chevron_right
+          ⏩
         </span>
       </button>
       <h2 className="diaActual ml-4 text-xl text-gray-500 font-bold">
