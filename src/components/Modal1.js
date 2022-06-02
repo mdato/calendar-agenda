@@ -96,7 +96,7 @@ export default function Modal1() {
             <span className="material-icons-outlined text-gray-400">
               schedule
             </span>
-            <p>{daySelected.format("dddd, MMMM DD")}</p>
+            <p>{daySelected.format("ddd, MMM DD")}</p>
             
             <div className="flex gap-x-2">
               {labelsClasses.map((lblClass, i) => (
