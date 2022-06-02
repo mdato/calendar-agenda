@@ -1,0 +1,5 @@
+{
+    "editor.fontLigatures": false,
+    "prettier.printWidth": 70,
+    "prettier.tabWidth": 2
+}

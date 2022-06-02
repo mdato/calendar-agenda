@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.agregoEvento{
+  transform: translateX(-150px);
+  width: 300px;
+  font-size: 22px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+.costado{
+  display: none;
+}
+.bg-white{
+  margin-top: 200px;
+  width: 100vw;
+  /*margin-left: -250px;*/
+  left:50%;
+}
+
+.bg-blue{
+  margin-top: 100px;
+  width: 100vw;
+ /*margin-left: -250px;*/
+ left:50%;
+}
+.gap-x-2{
+  display: none;
+}
+
+.cursor-pointer{
+  width: 84px;
+}
+
+.calendario {
+  width: 550px !important;
+}
+
+
+.todayBoton{
+  padding: 1px
+}
+.flechaIzq{
+  transform: translateX(-50px);
+}
+.flechaDer{
+  transform: translateX(-120px);
+}
+.diaActual{
+  width: 100px;
+  white-space: nowrap;
+  transform: translateX(-120px);
+}
+.agregoEvento{
+  transform: translateX(-20px);
+  width: 300px;
+}
+}
